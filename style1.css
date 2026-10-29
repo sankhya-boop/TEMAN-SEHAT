@@ -1,0 +1,212 @@
+/* Pengaturan Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Menjaga lebar halaman tetap konsisten di semua halaman */
+html {
+    overflow-y: scroll;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header & Navigasi (Flexbox) */
+header {
+    background-color: #1b5e20;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 9px rgb(5, 5, 5);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Styling untuk Logo Header */
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1px; /* Jarak antara gambar logo dan teks */
+}
+
+.logo-img {
+    width: 70px;  /* Atur lebar logo sesuai kebutuhan */
+    height: auto; /* Menjaga proporsi gambar */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover, nav a.active {
+    color: #a5d6a7;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient( rgba(46, 125, 50, 0.553)), url('berandabg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Features / Cards (Flexbox Grid Simulation) */
+.features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Memaksa tepat 4 kolom sejajar */
+    gap: 2rem;
+    gap: 2rem;
+    margin: 3rem auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 280px;
+}
+
+.card h3 {
+    color: #2e7d32;
+    margin-bottom: 0.75rem;
+}
+
+/* Footer */
+footer {
+    background-color: #1b5e20;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: auto;
+}
+
+/* Styling Khusus Konten Halaman */
+.content-section {
+    padding: 3rem 0;
+}
+
+.content-section h2 {
+    color: #2e7d32;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.section-intro {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.set-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+    border-left: 5px solid #2e7d32;
+    box-sizing: border-box;
+    box-shadow: 0 0px 10px rgb(5, 5, 5);
+    width: 100%;
+    /* ... (properti kartu yang sudah ada seperti background, padding, dll) ... */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Kunci agar pergerakannya mulus */
+}
+
+.set-card h3 {
+    color: #1b5e20;
+    margin-bottom: 1rem;
+}
+
+/* Efek saat kursor diarahkan ke kartu */
+.set-card:hover {
+    transform: translateY(-6px); /* Membuat kartu bergerak sedikit ke atas (efek timbul) */
+    box-shadow: 0 0px 35px rgba(0, 0, 0, 0.12); /* Membuat bayangan lebih luas dan tegas */
+}
+
+.set-card p {
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.set-card ul {
+    padding-left: 1.5rem;
+    color: #444;
+}
+
+.set-card li {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive Media Queries untuk Tablet & Smartphone */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav ul {
+        margin-top: 1rem;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+}
