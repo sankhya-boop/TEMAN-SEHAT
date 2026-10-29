@@ -1,12 +1,12 @@
-# SehatBersama - Website Edukasi Kesehatan Masyarakat
+<img width="1364" height="767" alt="image" src="https://github.com/user-attachments/assets/d1f97923-5b26-4688-92c9-4596b0afe375" /># SehatBersama - Website Edukasi Kesehatan Masyarakat
 Proyek Ujian Tengah Semester (UTS) Mata Kuliah Pemrograman Web.
 Tema SDGs: **SDG 3 (Kehidupan Sehat dan Sejahtera)**.
 
 ## Anggota Kelompok
-1. **Made Ivania Dwi Parahita** - NIM: 2515091004 - Tugas: 
-2. **Kadek Savitri Candrika Dewi** - NIM:  2515091005 - Tugas: 
-3. **I Made Sankhya Sutayana** - NIM: 2515091036 - Tugas: 
-4. **IDA BAGUS MEGANATA KUSUMA** - NIM: 2515091128 - Tugas:
+1. **Made Ivania Dwi Parahita** - NIM: 2515091004 - Tugas: membuat halaman panduan beserta style css.
+2. **Kadek Savitri Candrika Dewi** - NIM:  2515091005 - Tugas: membuat halaman artikel beserta style css.
+3. **I Made Sankhya Sutayana** - NIM: 2515091036 - Tugas: membuat halaman edukasi dan halaman tentang beserta style css.
+4. **IDA BAGUS MEGANATA KUSUMA** - NIM: 2515091128 - Tugas: membuat halaman beranda beserta style css.
 
 ## Deskripsi Website
 Website ini bertujuan untuk memberikan edukasi kepada masyarakat umum mengenai pentingnya pola hidup sehat, gizi seimbang, aktivitas fisik, dan pencegahan penyakit secara preventif sesuai dengan standar sumber tepercaya.
