@@ -1,4 +1,4 @@
-<img width="1364" height="767" alt="image" src="https://github.com/user-attachments/assets/d1f97923-5b26-4688-92c9-4596b0afe375" /># SehatBersama - Website Edukasi Kesehatan Masyarakat
+SehatBersama - Website Edukasi Kesehatan Masyarakat
 Proyek Ujian Tengah Semester (UTS) Mata Kuliah Pemrograman Web.
 Tema SDGs: **SDG 3 (Kehidupan Sehat dan Sejahtera)**.
 
