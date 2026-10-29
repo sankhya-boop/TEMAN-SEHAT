@@ -87,7 +87,7 @@ nav a:hover, nav a.active {
     background: linear-gradient( rgba(46, 125, 50, 0.553)), url('berandabg.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
-    padding: 5rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .hero-content h2 {
@@ -199,14 +199,31 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+
+    .logo-img {
+        width: 45px; 
+    }
+
+    .logo {
+        font-size: 1.2rem; /* Mengecilkan sedikit ukuran teks judul logo */
+    }
     
     nav ul {
-        margin-top: 1rem;
-        flex-direction: column;
-        gap: 0.75rem;
+        margin-top: 0.5rem;
+        flex-direction: row;       /* Menyamping agar tidak memakan tempat ke bawah */
+        flex-wrap: wrap;           /* Jika tidak muat, otomatis turun ke baris berikutnya */
+        justify-content: center;
+        gap: 0.5rem 1rem;          /* Jarak antar menu lebih rapat */
     }
 
     .hero-content h2 {
         font-size: 2rem;
     }
+
+    .features {
+        grid-template-columns: 1fr; /* Mengubah 4 kolom sejajar menjadi 1 kolom ke bawah */
+        padding: 0 1rem;            /* Memberikan jarak aman di sisi kiri dan kanan layar HP */
+    }
+
+
 }
