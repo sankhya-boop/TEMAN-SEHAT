@@ -3,10 +3,10 @@ Proyek Ujian Tengah Semester (UTS) Mata Kuliah Pemrograman Web.
 Tema SDGs: **SDG 3 (Kehidupan Sehat dan Sejahtera)**.
 
 ## Anggota Kelompok
-1. **Nama Anggota 1** - NIM: 12345678 - Tugas: 
-2. **Nama Anggota 2** - NIM: 12345679 - Tugas: 
-3. **Nama Anggota 3** - NIM: 12345680 - Tugas: 
-4. **Nama Anggota 3** - NIM: 12345680 - Tugas:
+1. **Made Ivania Dwi Parahita** - NIM: 2515091004 - Tugas: 
+2. **Kadek Savitri Candrika Dewi** - NIM:  2515091005 - Tugas: 
+3. **I Made Sankhya Sutayana** - NIM: 2515091036 - Tugas: 
+4. **IDA BAGUS MEGANATA KUSUMA** - NIM: 2515091128 - Tugas:
 
 ## Deskripsi Website
 Website ini bertujuan untuk memberikan edukasi kepada masyarakat umum mengenai pentingnya pola hidup sehat, gizi seimbang, aktivitas fisik, dan pencegahan penyakit secara preventif sesuai dengan standar sumber tepercaya.
