@@ -104,7 +104,6 @@ nav a:hover, nav a.active {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Memaksa tepat 4 kolom sejajar */
     gap: 2rem;
-    gap: 2rem;
     margin: 3rem auto;
     flex-wrap: wrap;
     justify-content: center;
